@@ -15,16 +15,10 @@ disp(soln1);
 figure (1)
 hold on
 plot(tab1(:,1)', tab1(:,end)','r-*');
-plot(tab2(:,1)', tab2(:,end)','b-*');
-plot(tab3(:,1)', tab3(:,end)','g-*');
-legend('Jacobi Iterative Method','Gauss Seidel Method','SOR Method');
+legend('Jacobi Iterative Method');
 xlabel('Iteration');
 ylabel('Error');
 hold off
-
-
-figure (2)
-surf(soln1)
 
 end
 
